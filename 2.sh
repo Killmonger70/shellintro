@@ -1,7 +1,14 @@
 # !/bin/bash
 # nicolas ramirez
 # segunda parte enfocada a las variables
+# el argumento -p es para que se efectue com un prompt
 
-NAME="nico"
+FOOT="foot"
 
-echo "tu nombre es $NAME "
+	read -p  "tu nombre es?:  " NAME
+
+	read -p "que deporte te gusta $NAME?: " SPORT
+
+	echo "a $NAME le gusta practicar $SPORT cada vez que puede!"
+	echo "a mi me gusta el ${FOOT}ball"
+
