@@ -1,2 +1,2 @@
 # shellintro
-*introduction to the bash shell scripcting language
+*introduction to the bash shell scripting language
